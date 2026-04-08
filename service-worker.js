@@ -1,5 +1,6 @@
-const CACHE_NAME = 'diario-cozy-v1';
-const urlsToCache = [
+const CACHE_NAME = 'diario-cozy-v3-FORCE-UPDATE';
+const urlsToCache = [self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', () => self.clients.claim());
   './',
   './index.html',
   './manifest.json'
