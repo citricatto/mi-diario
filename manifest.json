@@ -1,0 +1,26 @@
+{
+  "name": "Mi Diario Cozy",
+  "short_name": "Diario",
+  "description": "Tu compañero integral de autoconocimiento y bienestar",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FDF4E3",
+  "theme_color": "#8FD14F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='100' cy='100' r='95' fill='%238FD14F'/%3E%3Ctext x='100' y='140' font-size='120' text-anchor='middle' fill='white'%3E🌿%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Ccircle cx='256' cy='256' r='245' fill='%238FD14F'/%3E%3Ctext x='256' y='360' font-size='300' text-anchor='middle' fill='white'%3E🌿%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle", "productivity"],
+  "screenshots": []
+}
